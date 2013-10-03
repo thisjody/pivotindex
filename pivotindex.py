@@ -1,4 +1,3 @@
-#returns index where the sum of items to left and right are equal
 def pivot_indexer(the_list):
     the_list_summed = float(sum(the_list))
     cumulative_sum = float(0)
